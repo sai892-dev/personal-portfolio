@@ -1,0 +1,80 @@
+[
+  {
+    "id": "proj-001",
+    "title": "E-Commerce Platform",
+    "description": "A full-featured online shopping platform with cart, checkout, and payment integration.",
+    "longDescription": "Built a complete e-commerce solution featuring product catalog, shopping cart, user authentication, order management, and Stripe payment integration. Implemented responsive design for seamless mobile shopping experience.",
+    "techStack": ["React", "Node.js", "MongoDB", "Stripe API"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/ecommerce",
+    "image": "",
+    "category": "fullstack",
+    "featured": true,
+    "createdAt": "2026-03-15T00:00:00Z"
+  },
+  {
+    "id": "proj-002",
+    "title": "Weather Dashboard",
+    "description": "Real-time weather tracking app with interactive maps and 7-day forecasts.",
+    "longDescription": "Developed a weather dashboard that fetches real-time data from OpenWeatherMap API. Features include city search, interactive radar maps, hourly and 7-day forecasts, and weather alerts. Built with vanilla JavaScript and CSS animations.",
+    "techStack": ["HTML", "CSS", "JavaScript", "Weather API"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/weather",
+    "image": "",
+    "category": "frontend",
+    "featured": true,
+    "createdAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "id": "proj-003",
+    "title": "Task Management App",
+    "description": "Kanban-style project management tool with drag-and-drop functionality.",
+    "longDescription": "A productivity app inspired by Trello, featuring drag-and-drop task cards, multiple boards, labels, due dates, and team collaboration. Built with React and Firebase for real-time sync across devices.",
+    "techStack": ["React", "Firebase", "CSS3", "Drag & Drop API"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/taskmanager",
+    "image": "",
+    "category": "fullstack",
+    "featured": true,
+    "createdAt": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": "proj-004",
+    "title": "Blog Platform",
+    "description": "A modern blogging platform with markdown support and user authentication.",
+    "longDescription": "Created a full-stack blogging platform with markdown editor, image uploads, categories, tags, and a comment system. Features user authentication with JWT tokens, admin dashboard for content management, and SEO-optimized pages.",
+    "techStack": ["Node.js", "Express", "MongoDB", "JWT"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/blog",
+    "image": "",
+    "category": "backend",
+    "featured": false,
+    "createdAt": "2025-12-05T00:00:00Z"
+  },
+  {
+    "id": "proj-005",
+    "title": "Fitness Tracker",
+    "description": "Mobile-responsive fitness app with workout logging and progress charts.",
+    "longDescription": "A progressive web app for tracking workouts, calories, and fitness goals. Includes exercise library, custom workout builder, progress charts with Chart.js, and offline support via service workers.",
+    "techStack": ["HTML", "CSS", "JavaScript", "Chart.js"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/fitness",
+    "image": "",
+    "category": "frontend",
+    "featured": false,
+    "createdAt": "2025-11-18T00:00:00Z"
+  },
+  {
+    "id": "proj-006",
+    "title": "Chat Application",
+    "description": "Real-time messaging app with rooms, typing indicators, and emoji support.",
+    "longDescription": "Built a real-time chat application using Socket.io for WebSocket communication. Features include private messaging, chat rooms, typing indicators, emoji picker, file sharing, and message history with pagination.",
+    "techStack": ["Node.js", "Socket.io", "Express", "MongoDB"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/user/chatapp",
+    "image": "",
+    "category": "fullstack",
+    "featured": true,
+    "createdAt": "2025-10-22T00:00:00Z"
+  }
+]

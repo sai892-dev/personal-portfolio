@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about my background, skills, education, and experience as a full-stack web developer.">
+  <title>About Me | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">&#60;Dev /&#62;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="section" style="padding-top: 140px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">👋 About Me</span>
+        <h1 class="section-title">Who I Am</h1>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Image -->
+        <div class="about-image-wrapper reveal">
+          <div class="about-image">
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1f3a, #0a0f1c); display: flex; align-items: center; justify-content: center; font-size: 5rem;">
+              👨‍💻
+            </div>
+            <div class="about-image-decoration"></div>
+          </div>
+        </div>
+
+        <!-- Right: Text -->
+        <div class="about-text reveal reveal-delay-1">
+          <h2>Hello! I'm a <span class="highlight">Full-Stack Developer</span></h2>
+          <p>
+            I'm a passionate developer with a love for creating elegant, efficient, and user-friendly web applications. 
+            My journey in programming started with curiosity and has grown into a dedication to building 
+            impactful digital solutions.
+          </p>
+          <p>
+            I specialize in <span class="highlight">JavaScript</span>, <span class="highlight">Node.js</span>, 
+            and modern web technologies. I enjoy the full spectrum of development — from designing intuitive 
+            interfaces to architecting robust backends.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+            projects, or learning about system design and software architecture.
+          </p>
+
+          <div style="margin-top: 24px;">
+            <a href="contact.html" class="btn btn-primary">📬 Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Progress Section -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">📊 Skills</span>
+        <h2 class="section-title">Technical Proficiency</h2>
+      </div>
+
+      <div style="max-width: 700px; margin: 0 auto;">
+        <div class="progress-section reveal">
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>HTML & CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="90"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="85"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>React / Frontend Frameworks</span>
+              <span>75%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="75"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>Node.js & Express</span>
+              <span>80%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>Database (MongoDB / MySQL)</span>
+              <span>70%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="70"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-info">
+              <span>Git & Version Control</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+      <div class="timeline">
+        <h2 class="timeline-title reveal">📚 Education & Experience</h2>
+        <div class="timeline-items" style="max-width: 700px; margin: 0 auto;">
+          <div class="timeline-item reveal">
+            <span class="timeline-date">2024 — Present</span>
+            <h4>Full-Stack Web Development</h4>
+            <p class="timeline-company">Self-Taught / Online Courses</p>
+            <p>Completed comprehensive courses in HTML, CSS, JavaScript, React, Node.js, and database management. Built multiple real-world projects.</p>
+          </div>
+
+          <div class="timeline-item reveal reveal-delay-1">
+            <span class="timeline-date">2025 — Present</span>
+            <h4>Freelance Developer</h4>
+            <p class="timeline-company">Independent Projects</p>
+            <p>Developed web applications for clients including e-commerce platforms, portfolio websites, and management systems.</p>
+          </div>
+
+          <div class="timeline-item reveal reveal-delay-2">
+            <span class="timeline-date">2023 — 2025</span>
+            <h4>Computer Science Studies</h4>
+            <p class="timeline-company">University / College</p>
+            <p>Studied core computer science fundamentals including data structures, algorithms, database systems, and software engineering principles.</p>
+          </div>
+
+          <div class="timeline-item reveal reveal-delay-3">
+            <span class="timeline-date">2026</span>
+            <h4>Portfolio Website</h4>
+            <p class="timeline-company">Personal Project</p>
+            <p>Designed and developed this full-stack portfolio website using HTML, CSS, JavaScript, Node.js, and Express with database integration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="footer-logo">&#60;Dev /&#62;</a>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Portfolio. Built with ❤️ using HTML, CSS, JavaScript & Node.js</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch — send me a message for project inquiries, collaborations, or just to say hello.">
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">&#60;Dev /&#62;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="section" style="padding-top: 140px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">📬 Contact</span>
+        <h1 class="section-title">Let's Work Together</h1>
+        <p class="section-description">
+          Have a project in mind? Want to collaborate? Or just want to say hello? Drop me a message!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: Contact Info -->
+        <div class="contact-info reveal">
+          <h2>Get In Touch</h2>
+          <p>
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          </p>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📧</div>
+            <div class="contact-detail-text">
+              <h4>Email</h4>
+              <p>developer@example.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div class="contact-detail-text">
+              <h4>Location</h4>
+              <p>India</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">💼</div>
+            <div class="contact-detail-text">
+              <h4>Availability</h4>
+              <p>Open for freelance & full-time</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" title="GitHub" aria-label="GitHub">📂</a>
+            <a href="#" class="social-link" title="LinkedIn" aria-label="LinkedIn">💼</a>
+            <a href="#" class="social-link" title="Twitter" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" title="Instagram" aria-label="Instagram">📸</a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form-wrapper reveal reveal-delay-1">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Your Name *</label>
+              <input type="text" id="contact-name" placeholder="John Doe" required>
+              <span class="form-error">Please enter your name</span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Your Email *</label>
+              <input type="email" id="contact-email" placeholder="john@example.com" required>
+              <span class="form-error">Please enter a valid email</span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" placeholder="Project Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" placeholder="Tell me about your project..." required></textarea>
+              <span class="form-error">Please enter a message</span>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message 🚀</button>
+          </form>
+          <div class="form-message" id="form-message"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="footer-logo">&#60;Dev /&#62;</a>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Portfolio. Built with ❤️ using HTML, CSS, JavaScript & Node.js</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
