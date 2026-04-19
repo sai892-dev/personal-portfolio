@@ -57,7 +57,7 @@ npm install
 node server.js
 ```
 
-Open **http://localhost:3000** in your browser.
+Open https://personal-portfolio-pwb2.onrender.com in your browser.
 
 ## 📡 API Endpoints
 
