@@ -1,0 +1,13 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio website",
+  "scripts": {
+    "start": "node backend/server.js",
+    "install-backend": "cd backend && npm install",
+    "build": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
