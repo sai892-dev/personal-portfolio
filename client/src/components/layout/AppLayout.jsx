@@ -15,15 +15,15 @@ const AppLayout = () => {
   if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   return (
-    <div className="min-h-screen bg-surface-50 dark:bg-surface-950">
+    <div className="min-h-screen flex bg-surface-50 dark:bg-surface-950">
       <Sidebar isOpen={sidebarOpen} onToggle={() => setSidebarOpen((prev) => !prev)} />
 
       <div
-        className={`transition-all duration-300 ${sidebarOpen ? 'lg:ml-64' : 'lg:ml-20'}`}
+        className={`flex-1 flex flex-col min-w-0 transition-all duration-300 ${sidebarOpen ? 'lg:ml-64' : 'lg:ml-20'}`}
       >
         <Navbar onMenuClick={() => setSidebarOpen((prev) => !prev)} isConnected={isConnected} />
 
-        <main className="p-4 lg:p-6 max-w-7xl mx-auto">
+        <main className="flex-1 p-4 lg:p-8 w-full max-w-[1600px] mx-auto overflow-x-hidden">
           <Outlet />
         </main>
       </div>
