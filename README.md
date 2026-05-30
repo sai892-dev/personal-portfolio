@@ -1,8 +1,8 @@
-# 🚀 TaskFlow — Modern Task Management Application
+# 🚀 Task Manager — Modern Task Management Application
 
 A full-stack task management web application built with React, Node.js, Express, MongoDB, and Socket.io. Features a beautiful UI with Kanban board, real-time updates, authentication, and dark mode.
 
-![TaskFlow](https://img.shields.io/badge/TaskFlow-Task%20Management-6366f1?style=for-the-badge&logo=react&logoColor=white)
+![Task Manager](https://img.shields.io/badge/Task Manager-Task%20Management-6366f1?style=for-the-badge&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)

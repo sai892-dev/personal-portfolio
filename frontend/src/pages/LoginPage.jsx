@@ -50,7 +50,7 @@ const LoginPage = () => {
             <div className="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur flex items-center justify-center">
               <Zap className="w-7 h-7 text-white" />
             </div>
-            <h1 className="text-3xl font-bold">TaskFlow</h1>
+            <h1 className="text-3xl font-bold">Task Manager</h1>
           </div>
           <h2 className="text-4xl font-bold mb-4 leading-tight">
             Organize your work,<br />
@@ -86,7 +86,7 @@ const LoginPage = () => {
             <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center shadow-lg shadow-primary-500/25">
               <Zap className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-2xl font-bold text-surface-900 dark:text-white">TaskFlow</h1>
+            <h1 className="text-2xl font-bold text-surface-900 dark:text-white">Task Manager</h1>
           </div>
 
           <h2 className="text-2xl font-bold text-surface-900 dark:text-white mb-2">

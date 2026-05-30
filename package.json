@@ -1,14 +1,14 @@
 {
   "name": "taskmanager",
   "version": "1.0.0",
-  "description": "TaskFlow - Modern Full-Stack Task Management Application",
+  "description": "Task Manager - Modern Full-Stack Task Management Application",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd server && npm run dev",
-    "client": "cd client && npm run dev",
-    "build": "cd client && npm run build",
-    "start": "cd server && npm start",
-    "install-all": "cd server && npm install && cd ../client && npm install"
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"

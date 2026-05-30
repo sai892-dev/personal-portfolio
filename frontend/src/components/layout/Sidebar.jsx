@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, onToggle }) => {
             </div>
             {isOpen && (
               <span className="text-lg font-bold text-surface-900 dark:text-white whitespace-nowrap animate-fade-in">
-                TaskFlow
+                Task Manager
               </span>
             )}
           </div>

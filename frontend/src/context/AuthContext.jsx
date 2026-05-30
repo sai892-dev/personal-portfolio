@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
       setToken(data.token);
       localStorage.setItem('token', data.token);
       localStorage.setItem('user', JSON.stringify(data));
-      toast.success(`Welcome to TaskFlow, ${data.name}!`);
+      toast.success(`Welcome to Task Manager, ${data.name}!`);
       return data;
     } catch (error) {
       const message = error.response?.data?.message || 'Registration failed';
