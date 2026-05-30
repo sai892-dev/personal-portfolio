@@ -15,15 +15,14 @@ const AppLayout = () => {
   if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   return (
-    <div className="min-h-screen flex bg-surface-50 dark:bg-surface-950">
+    <div className="flex h-screen overflow-hidden bg-surface-50 dark:bg-surface-950">
+      {/* Sidebar is now a physical flex item on desktop, no overlap possible! */}
       <Sidebar isOpen={sidebarOpen} onToggle={() => setSidebarOpen((prev) => !prev)} />
 
-      <div
-        className={`flex-1 flex flex-col min-w-0 transition-all duration-300 ${sidebarOpen ? 'lg:ml-64' : 'lg:ml-20'}`}
-      >
+      <div className="flex-1 flex flex-col min-w-0 h-screen overflow-hidden relative">
         <Navbar onMenuClick={() => setSidebarOpen((prev) => !prev)} isConnected={isConnected} />
 
-        <main className="flex-1 p-4 lg:p-8 w-full max-w-[1600px] mx-auto overflow-x-hidden">
+        <main className="flex-1 overflow-y-auto p-4 lg:p-8 w-full max-w-[1600px] mx-auto">
           <Outlet />
         </main>
       </div>

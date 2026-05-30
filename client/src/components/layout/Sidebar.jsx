@@ -29,17 +29,17 @@ const Sidebar = ({ isOpen, onToggle }) => {
         />
       )}
 
-      {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full z-40
+          fixed lg:static top-0 left-0 h-full z-40
           bg-white dark:bg-surface-900
           border-r border-surface-200 dark:border-surface-800
           transition-all duration-300 ease-in-out
-          flex flex-col
+          flex flex-col flex-shrink-0
           ${isOpen ? 'w-64' : 'w-0 lg:w-20'}
           ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
         `}
+        style={{ backgroundColor: 'var(--color-surface-50, #ffffff)' }} // extra safeguard
       >
         {/* Logo */}
         <div className={`flex items-center h-16 px-4 border-b border-surface-200 dark:border-surface-800 ${isOpen ? '' : 'lg:justify-center'}`}>
